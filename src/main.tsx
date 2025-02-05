@@ -23,10 +23,13 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 
 				{/* Battery Health And Alarm */}
 				<Route
-					path="/battery-health/privacy-policy"
+					path="/battery-health-and-alarm/privacy-policy"
 					element={<BatteryPrivacyPolicy />}
 				/>
-				<Route path="/battery-health/terms" element={<BatteryTerms />} />
+				<Route
+					path="/battery-health-and-alarm/terms"
+					element={<BatteryTerms />}
+				/>
 
 				{/* Recover Deleted Messages */}
 				<Route
@@ -40,10 +43,13 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 
 				{/* Screenshot Pro */}
 				<Route
-					path="/screenshot-pro/privacy-policy"
+					path="/screenshot-pro-capture-edit/privacy-policy"
 					element={<ScreenshotPrivacyPolicy />}
 				/>
-				<Route path="/screenshot-pro/terms" element={<ScreenshotTerms />} />
+				<Route
+					path="/screenshot-pro-capture-edit/terms"
+					element={<ScreenshotTerms />}
+				/>
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>

@@ -1,3 +1,20 @@
 {
-	"rewrites": [{ "source": "/(.*)", "destination": "/" }]
+	"rewrites": [
+		{
+			"source": "/recover-deleted-messages/privacy-policy",
+			"destination": "/"
+		},
+		{ "source": "/recover-deleted-messages/terms", "destination": "/" },
+		{
+			"source": "/battery-health-and-alarm/privacy-policy",
+			"destination": "/"
+		},
+		{ "source": "/battery-health-and-alarm/terms", "destination": "/" },
+		{
+			"source": "/screenshot-pro-capture-edit/privacy-policy",
+			"destination": "/"
+		},
+		{ "source": "/screenshot-pro-capture-edit/terms", "destination": "/" },
+		{ "source": "/(.*)", "destination": "/" }
+	]
 }
