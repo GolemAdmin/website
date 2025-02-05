@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import { styled } from "@mui/system";
 import ContactForm from "./../../components/ContactForm";
+import { Helmet } from "react-helmet-async";
 
 const HeroSection = styled(Box)({
 	height: "80vh",
@@ -43,6 +44,10 @@ const AboutSection = styled(Box)({
 const Home: React.FC = () => {
 	return (
 		<>
+			<Helmet>
+				<title>GolemApps</title>
+				<meta name="description" content="GolemApps" />
+			</Helmet>
 			<AppBar position="sticky" color="primary">
 				<Toolbar>
 					<Typography variant="h6" sx={{ flexGrow: 1 }}>
