@@ -16,6 +16,10 @@ import RecoverTerms from "./pages/RecoverDeletedMessages/Terms";
 import ScreenshotPrivacyPolicy from "./pages/ScreenshotPro/PrivacyPolicy";
 import ScreenshotTerms from "./pages/ScreenshotPro/Terms";
 
+// Card Wallet
+import CardWalletPrivacyPolicy from "./pages/CardWallet/PrivacyPolicy";
+import CardWalletTerms from "./pages/CardWallet/Terms";
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
 		<HelmetProvider>
@@ -52,6 +56,13 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 						path="/screenshot-pro-capture-edit/terms"
 						element={<ScreenshotTerms />}
 					/>
+
+					{/* Card Wallet */}
+					<Route
+						path="/card-wallet/privacy-policy"
+						element={<CardWalletPrivacyPolicy />}
+					/>
+					<Route path="/card-wallet/terms" element={<CardWalletTerms />} />
 				</Routes>
 			</BrowserRouter>
 		</HelmetProvider>

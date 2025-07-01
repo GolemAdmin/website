@@ -15,6 +15,11 @@
 			"destination": "/"
 		},
 		{ "source": "/screenshot-pro-capture-edit/terms", "destination": "/" },
-		{ "source": "/(.*)", "destination": "/" }
+		{ "source": "/(.*)", "destination": "/" },
+		{
+			"source": "/card-wallet/privacy-policy",
+			"destination": "/"
+		},
+		{ "source": "/card-wallet/terms", "destination": "/" }
 	]
 }
