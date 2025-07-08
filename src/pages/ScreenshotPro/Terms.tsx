@@ -18,8 +18,8 @@ const Terms: React.FC = () => {
 					<p>
 						These terms and conditions applies to the Screenshot Pro: Capture &
 						Edit app (hereby referred to as "Application") for mobile devices
-						that was created by SmartUtility Labs (hereby referred to as
-						"Service Provider") as an Ad Supported service.
+						that was created by UtilitySoft Labs (hereby referred to as "Service
+						Provider") as an Ad Supported service.
 					</p>
 					<p>
 						Upon downloading or utilizing the Application, you are automatically

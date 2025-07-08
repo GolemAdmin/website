@@ -18,7 +18,7 @@ const Terms: React.FC = () => {
 					<p>
 						These terms and conditions applies to the Battery Health And Alarm
 						app (hereby referred to as "Application") for mobile devices that
-						was created by SmartUtility Labs (hereby referred to as "Service
+						was created by UtilitySoft Labs (hereby referred to as "Service
 						Provider") as an Ad Supported service.
 					</p>
 					<p>

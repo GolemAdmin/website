@@ -45,13 +45,13 @@ const Home: React.FC = () => {
 	return (
 		<>
 			<Helmet>
-				<title>SmartUtility Labs</title>
-				<meta name="description" content="SmartUtility Labs" />
+				<title>UtilitySoft Labs</title>
+				<meta name="description" content="UtilitySoft Labs" />
 			</Helmet>
 			<AppBar position="sticky" color="primary">
 				<Toolbar>
 					<Typography variant="h6" sx={{ flexGrow: 1 }}>
-						SmartUtility Labs
+						UtilitySoft Labs
 					</Typography>
 				</Toolbar>
 			</AppBar>
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
 					Crafting Innovative Solutions for Google Play
 				</Typography>
 				<Typography variant="body1" maxWidth="md" gutterBottom>
-					At SmartUtility Labs, we specialize in cutting-edge software
+					At UtilitySoft Labs, we specialize in cutting-edge software
 					development and Android tools tailored for Google Play. Our focus is
 					on empowering excellence through innovative solutions that resonate
 					with users worldwide.
@@ -73,18 +73,18 @@ const Home: React.FC = () => {
 
 			<AboutSection>
 				<Typography variant="h4" gutterBottom>
-					SmartUtility Labs
+					UtilitySoft Labs
 				</Typography>
 				<Typography variant="h5" gutterBottom>
 					Innovative Solutions for Mobile App Development
 				</Typography>
 				<Typography variant="body1" maxWidth="md" margin="auto">
-					SmartUtility Labs is a leading provider of software Android
-					development services and tools for Google Play. With a passion for
-					innovation, we deliver exceptional mobile applications that redefine
-					user experiences and drive business success.
+					UtilitySoft Labs is a leading provider of software Android development
+					services and tools for Google Play. With a passion for innovation, we
+					deliver exceptional mobile applications that redefine user experiences
+					and drive business success.
 					<br />
-					At SmartUtility Labs, we are committed to excellence, creativity, and
+					At UtilitySoft Labs, we are committed to excellence, creativity, and
 					quality in every project we undertake.
 				</Typography>
 			</AboutSection>
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
 
 			<Box textAlign="center" py={4} bgcolor="#f4f4f4">
 				<Typography variant="body1">
-					&copy; {new Date().getFullYear()} SmartUtility Labs. All rights
+					&copy; {new Date().getFullYear()} UtilitySoft Labs. All rights
 					reserved.
 				</Typography>
 			</Box>

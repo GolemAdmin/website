@@ -16,8 +16,8 @@ const PrivacyPolicy: React.FC = () => {
 				<p>
 					This privacy policy is applicable to the Card Wallet app (hereinafter
 					referred to as "Application") for mobile devices, which was developed
-					by SmartUtility Labs (hereinafter referred to as "Service Provider")
-					as a an Ad Supported service. This service is provided "AS IS".
+					by UtilitySoft Labs (hereinafter referred to as "Service Provider") as
+					a an Ad Supported service. This service is provided "AS IS".
 				</p>
 				<p>
 					<strong>
