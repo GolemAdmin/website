@@ -16,9 +16,9 @@ const PrivacyPolicy: React.FC = () => {
 				<p>
 					This privacy policy is applicable to the Battery Health And Alarm app
 					(hereinafter referred to as "Application") for mobile devices, which
-					was developed by GolemApps (hereinafter referred to as "Service
-					Provider") as a an Ad Supported service. This service is provided "AS
-					IS".
+					was developed by SmartUtility Labs (hereinafter referred to as
+					"Service Provider") as a an Ad Supported service. This service is
+					provided "AS IS".
 				</p>
 				<p>
 					<strong>

@@ -45,13 +45,13 @@ const Home: React.FC = () => {
 	return (
 		<>
 			<Helmet>
-				<title>GolemApps</title>
-				<meta name="description" content="GolemApps" />
+				<title>SmartUtility Labs</title>
+				<meta name="description" content="SmartUtility Labs" />
 			</Helmet>
 			<AppBar position="sticky" color="primary">
 				<Toolbar>
 					<Typography variant="h6" sx={{ flexGrow: 1 }}>
-						GolemApps
+						SmartUtility Labs
 					</Typography>
 				</Toolbar>
 			</AppBar>
@@ -64,28 +64,28 @@ const Home: React.FC = () => {
 					Crafting Innovative Solutions for Google Play
 				</Typography>
 				<Typography variant="body1" maxWidth="md" gutterBottom>
-					At GolemApps, we specialize in cutting-edge software development and
-					Android tools tailored for Google Play. Our focus is on empowering
-					excellence through innovative solutions that resonate with users
-					worldwide.
+					At SmartUtility Labs, we specialize in cutting-edge software
+					development and Android tools tailored for Google Play. Our focus is
+					on empowering excellence through innovative solutions that resonate
+					with users worldwide.
 				</Typography>
 			</HeroSection>
 
 			<AboutSection>
 				<Typography variant="h4" gutterBottom>
-					GolemApps
+					SmartUtility Labs
 				</Typography>
 				<Typography variant="h5" gutterBottom>
 					Innovative Solutions for Mobile App Development
 				</Typography>
 				<Typography variant="body1" maxWidth="md" margin="auto">
-					GolemApps is a leading provider of software Android development
-					services and tools for Google Play. With a passion for innovation, we
-					deliver exceptional mobile applications that redefine user experiences
-					and drive business success.
+					SmartUtility Labs is a leading provider of software Android
+					development services and tools for Google Play. With a passion for
+					innovation, we deliver exceptional mobile applications that redefine
+					user experiences and drive business success.
 					<br />
-					At GolemApps, we are committed to excellence, creativity, and quality
-					in every project we undertake.
+					At SmartUtility Labs, we are committed to excellence, creativity, and
+					quality in every project we undertake.
 				</Typography>
 			</AboutSection>
 
@@ -132,7 +132,8 @@ const Home: React.FC = () => {
 
 			<Box textAlign="center" py={4} bgcolor="#f4f4f4">
 				<Typography variant="body1">
-					&copy; {new Date().getFullYear()} GolemApps. All rights reserved.
+					&copy; {new Date().getFullYear()} SmartUtility Labs. All rights
+					reserved.
 				</Typography>
 			</Box>
 		</>
