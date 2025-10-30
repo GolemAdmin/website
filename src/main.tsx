@@ -20,6 +20,10 @@ import ScreenshotTerms from "./pages/ScreenshotPro/Terms";
 import CardWalletPrivacyPolicy from "./pages/CardWallet/PrivacyPolicy";
 import CardWalletTerms from "./pages/CardWallet/Terms";
 
+// QR code
+import QrScannerPrivacyPolicy from "./pages/QrScanner/PrivacyPolicy";
+import QrScannerTerms from "./pages/QrScanner/Terms";
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
 		<HelmetProvider>
@@ -63,6 +67,13 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 						element={<CardWalletPrivacyPolicy />}
 					/>
 					<Route path="/card-wallet/terms" element={<CardWalletTerms />} />
+
+					{/* QR scanner & Barcode reader */}
+					<Route
+						path="/qr-scanner/privacy-policy"
+						element={<QrScannerPrivacyPolicy />}
+					/>
+					<Route path="/qr-scanner/terms" element={<QrScannerTerms />} />
 				</Routes>
 			</BrowserRouter>
 		</HelmetProvider>

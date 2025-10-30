@@ -20,6 +20,14 @@
 			"source": "/card-wallet/privacy-policy",
 			"destination": "/"
 		},
-		{ "source": "/card-wallet/terms", "destination": "/" }
+		{ "source": "/card-wallet/terms", "destination": "/" },
+		{
+			"source": "/qr-scanner/privacy-policy",
+			"destination": "/"
+		},
+		{
+			"source": "/qr-scanner/terms",
+			"destination": "/"
+		}
 	]
 }
