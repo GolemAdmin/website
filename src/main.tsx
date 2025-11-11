@@ -81,10 +81,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 
 					{/* Barcode */}
 					<Route
-						path="/qr-scanner/privacy-policy"
+						path="/barcode/privacy-policy"
 						element={<BarcodePrivacyPolicy />}
 					/>
-					<Route path="/qr-scanner/terms" element={<BarcodeTerms />} />
+					<Route path="/barcode/terms" element={<BarcodeTerms />} />
 				</Routes>
 			</BrowserRouter>
 		</HelmetProvider>
