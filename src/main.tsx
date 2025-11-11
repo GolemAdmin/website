@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Home from "./pages/Home/Home";
+import { theme } from "./theme";
+import { ThemeProvider, CssBaseline } from "@mui/material";
 
 // Battery Health And Alarm
 import BatteryPrivacyPolicy from "./pages/BatteryHealthAndAlarm/PrivacyPolicy";
@@ -27,55 +29,58 @@ import QrScannerTerms from "./pages/QrScanner/Terms";
 ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
 		<HelmetProvider>
-			<BrowserRouter>
-				<Routes>
-					<Route path="/" element={<Home />} />
+			<ThemeProvider theme={theme}>
+				<CssBaseline />
+				<BrowserRouter>
+					<Routes>
+						<Route path="/" element={<Home />} />
 
-					{/* Battery Health And Alarm */}
-					<Route
-						path="/battery-health-and-alarm/privacy-policy"
-						element={<BatteryPrivacyPolicy />}
-					/>
-					<Route
-						path="/battery-health-and-alarm/terms"
-						element={<BatteryTerms />}
-					/>
+						{/* Battery Health & Alarm */}
+						<Route
+							path="/battery-health-and-alarm/privacy-policy"
+							element={<BatteryPrivacyPolicy />}
+						/>
+						<Route
+							path="/battery-health-and-alarm/terms"
+							element={<BatteryTerms />}
+						/>
 
-					{/* Recover Deleted Messages */}
-					<Route
-						path="/recover-deleted-messages/privacy-policy"
-						element={<RecoverPrivacyPolicy />}
-					/>
-					<Route
-						path="/recover-deleted-messages/terms"
-						element={<RecoverTerms />}
-					/>
+						{/* Recover Deleted Messages */}
+						<Route
+							path="/recover-deleted-messages/privacy-policy"
+							element={<RecoverPrivacyPolicy />}
+						/>
+						<Route
+							path="/recover-deleted-messages/terms"
+							element={<RecoverTerms />}
+						/>
 
-					{/* Screenshot Pro */}
-					<Route
-						path="/screenshot-pro-capture-edit/privacy-policy"
-						element={<ScreenshotPrivacyPolicy />}
-					/>
-					<Route
-						path="/screenshot-pro-capture-edit/terms"
-						element={<ScreenshotTerms />}
-					/>
+						{/* Screenshot Pro */}
+						<Route
+							path="/screenshot-pro-capture-edit/privacy-policy"
+							element={<ScreenshotPrivacyPolicy />}
+						/>
+						<Route
+							path="/screenshot-pro-capture-edit/terms"
+							element={<ScreenshotTerms />}
+						/>
 
-					{/* Card Wallet */}
-					<Route
-						path="/card-wallet/privacy-policy"
-						element={<CardWalletPrivacyPolicy />}
-					/>
-					<Route path="/card-wallet/terms" element={<CardWalletTerms />} />
+						{/* Card Wallet */}
+						<Route
+							path="/card-wallet/privacy-policy"
+							element={<CardWalletPrivacyPolicy />}
+						/>
+						<Route path="/card-wallet/terms" element={<CardWalletTerms />} />
 
-					{/* QR scanner & Barcode reader */}
-					<Route
-						path="/qr-scanner/privacy-policy"
-						element={<QrScannerPrivacyPolicy />}
-					/>
-					<Route path="/qr-scanner/terms" element={<QrScannerTerms />} />
-				</Routes>
-			</BrowserRouter>
+						{/* QR Scanner */}
+						<Route
+							path="/qr-scanner/privacy-policy"
+							element={<QrScannerPrivacyPolicy />}
+						/>
+						<Route path="/qr-scanner/terms" element={<QrScannerTerms />} />
+					</Routes>
+				</BrowserRouter>
+			</ThemeProvider>
 		</HelmetProvider>
 	</React.StrictMode>
 );

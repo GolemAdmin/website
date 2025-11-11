@@ -11,18 +11,8 @@ import {
 import { styled } from "@mui/system";
 import ContactForm from "./../../components/ContactForm";
 import { Helmet } from "react-helmet-async";
-
-const HeroSection = styled(Box)({
-	height: "80vh",
-	display: "flex",
-	flexDirection: "column",
-	alignItems: "center",
-	justifyContent: "center",
-	textAlign: "center",
-	background: "linear-gradient(135deg, #3a8ef6, #5a48f6)",
-	color: "#fff",
-	padding: "2rem",
-});
+import HeroSection from "../../components/HeroSection/HeroSection";
+import AboutSection from "../../components/AboutSection/AboutSection";
 
 const FeatureCard = styled(Paper)({
 	padding: "1.5rem",
@@ -35,12 +25,6 @@ const FeatureCard = styled(Paper)({
 	minHeight: "140px",
 });
 
-const AboutSection = styled(Box)({
-	padding: "4rem 2rem",
-	textAlign: "center",
-	backgroundColor: "#f9f9f9",
-});
-
 const Home: React.FC = () => {
 	return (
 		<>
@@ -48,46 +32,9 @@ const Home: React.FC = () => {
 				<title>UtilitySoft Labs</title>
 				<meta name="description" content="UtilitySoft Labs" />
 			</Helmet>
-			<AppBar position="sticky" color="primary">
-				<Toolbar>
-					<Typography variant="h6" sx={{ flexGrow: 1 }}>
-						UtilitySoft Labs
-					</Typography>
-				</Toolbar>
-			</AppBar>
+			<HeroSection />
 
-			<HeroSection>
-				<Typography variant="h2" gutterBottom>
-					Empowering Excellence in Software Android Development
-				</Typography>
-				<Typography variant="h5" gutterBottom>
-					Crafting Innovative Solutions for Google Play
-				</Typography>
-				<Typography variant="body1" maxWidth="md" gutterBottom>
-					At UtilitySoft Labs, we specialize in cutting-edge software
-					development and Android tools tailored for Google Play. Our focus is
-					on empowering excellence through innovative solutions that resonate
-					with users worldwide.
-				</Typography>
-			</HeroSection>
-
-			<AboutSection>
-				<Typography variant="h4" gutterBottom>
-					UtilitySoft Labs
-				</Typography>
-				<Typography variant="h5" gutterBottom>
-					Innovative Solutions for Mobile App Development
-				</Typography>
-				<Typography variant="body1" maxWidth="md" margin="auto">
-					UtilitySoft Labs is a leading provider of software Android development
-					services and tools for Google Play. With a passion for innovation, we
-					deliver exceptional mobile applications that redefine user experiences
-					and drive business success.
-					<br />
-					At UtilitySoft Labs, we are committed to excellence, creativity, and
-					quality in every project we undertake.
-				</Typography>
-			</AboutSection>
+			<AboutSection />
 
 			<Container sx={{ py: 8 }}>
 				<Grid container spacing={4}>

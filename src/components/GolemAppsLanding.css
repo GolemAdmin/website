@@ -1,0 +1,91 @@
+body {
+	font-family: "Inter", "Roboto", sans-serif;
+	margin: 0;
+	background: #f9fafb;
+	color: #0d0d0d;
+}
+
+.header {
+	text-align: center;
+	padding: 80px 20px 40px;
+	background: linear-gradient(135deg, #00e676, #1a237e);
+	color: white;
+}
+
+.header h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.header p {
+	font-size: 20px;
+	opacity: 0.9;
+}
+
+.section {
+	max-width: 1000px;
+	margin: 80px auto;
+	padding: 0 20px;
+}
+
+.section h2 {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.apps-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 32px;
+}
+
+.card {
+	background: white;
+	border-radius: 16px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	padding: 24px;
+	text-align: center;
+	transition: transform 0.2s ease;
+}
+
+.card:hover {
+	transform: translateY(-4px);
+}
+
+.card img {
+	width: 72px;
+	height: 72px;
+	border-radius: 16px;
+	margin-bottom: 16px;
+	background: #e0e0e0;
+}
+
+.card h3 {
+	font-size: 20px;
+	margin: 8px 0;
+}
+
+.card p {
+	font-size: 15px;
+	opacity: 0.8;
+	margin-bottom: 16px;
+}
+
+.btn {
+	background: #1976d2;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+footer {
+	text-align: center;
+	background: #1a237e;
+	color: white;
+	padding: 40px 20px;
+	font-size: 14px;
+}
