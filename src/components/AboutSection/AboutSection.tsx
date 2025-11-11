@@ -50,7 +50,7 @@ const AboutSection: React.FC = () => {
 					we create reliable apps that just work.
 				</p>
 
-				<div className="apps-grid">
+				<div className="apps-grid" id="apps">
 					{apps.map((app) => (
 						<div key={app.title} className="app-card">
 							<div className="image">
@@ -77,7 +77,7 @@ const AboutSection: React.FC = () => {
 					</a>
 				</div>
 
-				<footer className="footer">
+				{/* <footer className="footer">
 					<p>
 						<a href="mailto:contact@utilitysoftlabs.com">
 							contact@utilitysoftlabs.com
@@ -87,7 +87,7 @@ const AboutSection: React.FC = () => {
 						<a href="#">Privacy Policy</a>
 						<a href="#">Terms</a>
 					</div>
-				</footer>
+				</footer> */}
 			</div>
 		</section>
 	);

@@ -13,6 +13,7 @@ import ContactForm from "./../../components/ContactForm";
 import { Helmet } from "react-helmet-async";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import AboutSection from "../../components/AboutSection/AboutSection";
+import ValuesSection from "../../components/ValuesSection/ValuesSection";
 
 const FeatureCard = styled(Paper)({
 	padding: "1.5rem",
@@ -35,45 +36,9 @@ const Home: React.FC = () => {
 			<HeroSection />
 
 			<AboutSection />
+			<ValuesSection />
 
 			<Container sx={{ py: 8 }}>
-				<Grid container spacing={4}>
-					<Grid item xs={12} sm={6} md={4}>
-						<FeatureCard>
-							<Typography variant="h5" gutterBottom>
-								Innovative Tools
-							</Typography>
-							<Typography variant="body1">
-								Cutting-edge Android tools designed to streamline development
-								processes and enhance app performance on Google Play.{" "}
-							</Typography>
-						</FeatureCard>
-					</Grid>
-					<Grid item xs={12} sm={6} md={4}>
-						<FeatureCard>
-							<Typography variant="h5" gutterBottom>
-								User-Centric Approach
-							</Typography>
-							<Typography variant="body1">
-								Our development process is driven by a deep understanding of
-								user behavior and preferences, resulting in intuitive and
-								engaging mobile applications.
-							</Typography>
-						</FeatureCard>
-					</Grid>
-					<Grid item xs={12} sm={6} md={4}>
-						<FeatureCard>
-							<Typography variant="h5" gutterBottom>
-								Global Reach
-							</Typography>
-							<Typography variant="body1">
-								Our solutions have made a mark on the global stage, garnering
-								recognition for their quality, functionality, and impact in the
-								mobile app industry.
-							</Typography>
-						</FeatureCard>
-					</Grid>
-				</Grid>
 				<ContactForm />
 			</Container>
 

@@ -16,7 +16,16 @@ const HeroSection: React.FC = () => {
 						simplify your digital life.
 					</p>
 					<div className="hero-buttons">
-						<a href="#apps" className="btn primary">
+						<a
+							href="#apps"
+							className="btn primary"
+							onClick={(e) => {
+								e.preventDefault();
+								document
+									.querySelector("#apps")
+									?.scrollIntoView({ behavior: "smooth" });
+							}}
+						>
 							View Apps
 						</a>
 						<a href="#contact" className="btn secondary">

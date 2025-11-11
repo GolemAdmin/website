@@ -29,6 +29,8 @@
 	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 	gap: 24px;
 	margin-bottom: 40px;
+
+	scroll-margin-top: 100px; /* наприклад, висота твого header */
 }
 
 .app-card {
