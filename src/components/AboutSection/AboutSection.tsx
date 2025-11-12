@@ -4,7 +4,7 @@ import qrIcon from "../../assets/qr.png";
 import batteryIcon from "../../assets/battery.png";
 import walletIcon from "../../assets/wallet.png";
 import screenshotIcon from "../../assets/screenshot.png";
-import messagesIcon from "../../assets/messages.png";
+import wamrIcon from "../../assets/wamr.png";
 
 const apps = [
 	{
@@ -28,7 +28,7 @@ const apps = [
 	{
 		title: "WAMR: Reveal Deleted Messages",
 		desc: "Recover deleted messages, photos, and videos instantly — stay in control of what others unsend.",
-		icon: messagesIcon,
+		icon: wamrIcon,
 		link: "https://play.google.com/store/apps/details?id=com.golemapps.messagerecovery",
 	},
 	{
