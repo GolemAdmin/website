@@ -29,7 +29,6 @@
 	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 	gap: 24px;
 	margin-bottom: 40px;
-
 	scroll-margin-top: 100px; /* наприклад, висота твого header */
 }
 
@@ -101,37 +100,6 @@
 	color: #0033a0;
 }
 
-.footer {
-	margin-top: 60px;
-	padding-top: 20px;
-	border-top: 1px solid #e0e0e0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.footer p {
-	font-size: 14px;
-	margin: 0;
-}
-
-.footer a {
-	color: #0d0d0d;
-	text-decoration: none;
-	font-size: 14px;
-	opacity: 0.8;
-}
-
-.footer a:hover {
-	opacity: 1;
-}
-
-.footer-links {
-	display: flex;
-	gap: 16px;
-}
-
 @media (max-width: 700px) {
 	.about-container h2 {
 		font-size: 28px;
@@ -139,12 +107,5 @@
 
 	.about-description {
 		font-size: 16px;
-	}
-
-	.footer {
-		flex-direction: column;
-		align-items: center;
-		gap: 12px;
-		text-align: center;
 	}
 }

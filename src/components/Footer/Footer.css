@@ -1,0 +1,122 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	background: #0a1840;
+	color: #fff;
+	padding: 80px 20px 40px;
+	font-family: "Inter", "Roboto", sans-serif;
+}
+
+/* Основна контейнерна обгортка */
+.footer-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 60px;
+}
+
+/* Окремі секції */
+.footer-section {
+	flex: 1;
+	min-width: 220px;
+}
+
+/* --- Бренд --- */
+.footer-brand h3 {
+	color: #00e676;
+	font-size: 22px;
+	margin-bottom: 12px;
+}
+
+.footer-brand p {
+	font-size: 15px;
+	opacity: 0.85;
+	line-height: 1.6;
+}
+
+/* --- Навігація --- */
+.footer-links h4,
+.footer-social h4 {
+	color: #00e676;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 14px;
+}
+
+.footer-links {
+	flex-direction: column;
+	flex: 4;
+}
+
+.footer-links ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-links li {
+	margin-bottom: 8px;
+}
+
+.footer-links a {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.8;
+	font-size: 15px;
+	transition: color 0.25s ease, opacity 0.25s ease;
+}
+
+.footer-links a:hover {
+	opacity: 1;
+	color: #00e676;
+}
+
+/* --- Соціальні іконки --- */
+.social-icons {
+	display: flex;
+	gap: 16px;
+	margin-top: 8px;
+}
+
+.social-icons a {
+	color: #fff;
+	opacity: 0.8;
+	transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.social-icons a:hover {
+	color: #00e676;
+	transform: translateY(-3px);
+}
+
+/* --- Нижня лінія --- */
+.footer-bottom {
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	margin-top: 60px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.footer-bottom p {
+	font-size: 14px;
+	opacity: 0.75;
+}
+
+/* --- Адаптивність --- */
+@media (max-width: 900px) {
+	.footer-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 40px;
+	}
+
+	.social-icons {
+		justify-content: center;
+	}
+}

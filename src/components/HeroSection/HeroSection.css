@@ -25,6 +25,7 @@
 	line-height: 1.2;
 	margin-bottom: 24px;
 	font-weight: 500;
+	margin-top: 0;
 }
 
 .hero-text h1 span {
@@ -37,6 +38,17 @@
 	opacity: 0.9;
 	margin-bottom: 32px;
 	max-width: 480px;
+}
+
+.hero-text .image {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-text .image .app-icon {
+	background-color: transparent;
+	margin-right: 16px;
 }
 
 .hero-buttons {

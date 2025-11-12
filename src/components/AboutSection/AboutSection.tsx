@@ -76,18 +76,6 @@ const AboutSection: React.FC = () => {
 						Explore more on Google Play →
 					</a>
 				</div>
-
-				{/* <footer className="footer">
-					<p>
-						<a href="mailto:contact@utilitysoftlabs.com">
-							contact@utilitysoftlabs.com
-						</a>
-					</p>
-					<div className="footer-links">
-						<a href="#">Privacy Policy</a>
-						<a href="#">Terms</a>
-					</div>
-				</footer> */}
 			</div>
 		</section>
 	);
