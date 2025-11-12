@@ -218,7 +218,7 @@ const Terms: React.FC = () => {
 						for any changes. The Service Provider will notify you of any changes
 						by posting the new Terms and Conditions on this page.
 					</p>
-					<p>These terms and conditions are effective as of 2024-06-30</p>
+					<p>These terms and conditions are effective as of 2025-11-12</p>
 					<p>
 						<strong>Contact Us</strong>
 					</p>

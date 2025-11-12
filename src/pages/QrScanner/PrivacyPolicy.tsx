@@ -281,7 +281,7 @@ const PrivacyPolicy: React.FC = () => {
 					advised to consult this Privacy Policy regularly for any changes, as
 					continued use is deemed approval of all changes.
 				</p>
-				<p>This privacy policy is effective as of 2024-06-30</p>
+				<p>This privacy policy is effective as of 2025-11-12</p>
 				<p>
 					<strong>Your Consent</strong>
 				</p>
