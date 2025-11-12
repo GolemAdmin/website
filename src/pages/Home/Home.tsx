@@ -14,7 +14,6 @@ const Home: React.FC = () => {
 				<meta name="description" content="UtilitySoft Labs" />
 			</Helmet>
 			<HeroSection />
-
 			<AboutSection />
 			<ValuesSection />
 			<ContactSection />

@@ -5,17 +5,17 @@ import { Facebook, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
 const Footer: React.FC = () => {
 	return (
 		<footer className="footer">
-			<div className="footer-container">
-				{/* Brand */}
-				<div className="footer-section footer-brand">
+			{/*<div className="footer-container">
+			
+				 <div className="footer-section footer-brand">
 					<h3>UtilitySoft Labs</h3>
 					<p>Smart Android tools crafted with simplicity and precision.</p>
 				</div>
 
-				{/* Links */}
+				
 				<div className="footer-section footer-links">
 					<h4>Explore</h4>
-					<ul>
+					<ul className="footer-links-list">
 						<li>
 							<a href="#apps">Our Apps</a>
 						</li>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
 					</ul>
 				</div>
 
-				{/* Social */}
+			
 				<div className="footer-section footer-social">
 					<h4>Connect</h4>
 					<div className="social-icons">
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
 						</a>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="footer-bottom">
 				<p>

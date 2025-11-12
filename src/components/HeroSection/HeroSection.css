@@ -1,20 +1,45 @@
 .hero {
-	background: linear-gradient(135deg, #0033a0, #0a47c1);
+	background: linear-gradient(135deg, #0033cc, #001a80);
 	color: white;
-	padding: 80px 20px;
 	overflow: hidden;
+	padding: 80px 20px 120px;
 }
 
-.hero-container {
-	max-width: 1100px;
-	margin: 0 auto;
+/* Логотип у верхньому лівому куті */
+.hero-brand {
+	position: absolute;
+	top: 40px;
+	left: 60px;
 	display: flex;
 	align-items: center;
+	gap: 12px;
+	z-index: 3;
+}
+
+.brand-logo {
+	width: 48px;
+	height: 48px;
+	filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+}
+
+.hero-brand h2 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #00e676;
+}
+
+/* Контейнер */
+.hero-container {
+	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
 	gap: 60px;
 	flex-wrap: wrap;
 }
 
+/* Текстовий блок */
 .hero-text {
 	flex: 1;
 	min-width: 300px;
@@ -25,98 +50,59 @@
 	line-height: 1.2;
 	margin-bottom: 24px;
 	font-weight: 500;
-	margin-top: 0;
+	margin-bottom: 20px;
 }
 
-.hero-text h1 span {
+.hero-text span {
 	color: #00e676;
 }
 
 .hero-text p {
 	font-size: 18px;
-	line-height: 1.6;
 	opacity: 0.9;
+	line-height: 1.6;
 	margin-bottom: 32px;
 	max-width: 480px;
-}
-
-.hero-text .image {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.hero-text .image .app-icon {
-	background-color: transparent;
-	margin-right: 16px;
 }
 
 .hero-buttons {
 	display: flex;
 	gap: 16px;
-	flex-wrap: wrap;
 }
 
+/* Кнопки */
 .btn {
 	display: inline-block;
 	font-weight: 600;
+	border-radius: 8px;
 	text-decoration: none;
-	border-radius: 10px;
-	padding: 12px 28px;
-	transition: all 0.2s ease;
+	padding: 12px 24px;
+	transition: all 0.3s ease;
 }
 
 .btn.primary {
-	background: #ffffff;
-	color: #0d0d0d;
-}
-
-.btn.primary:hover {
-	background: #e5e5e5;
+	background: white;
+	color: #000;
 }
 
 .btn.secondary {
-	border: 2px solid rgba(255, 255, 255, 0.4);
+	border: 2px solid #ffffff55;
 	color: white;
 }
 
+.btn.primary:hover {
+	background: #00e676;
+	color: #0a0a0a;
+}
+
 .btn.secondary:hover {
-	background: rgba(255, 255, 255, 0.1);
+	border-color: #00e676;
+	color: #00e676;
 }
 
-.hero-mockup {
-	flex: 1;
-	min-width: 280px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.phone-frame {
-	width: 220px;
-	height: 440px;
-	border-radius: 32px;
-	background: #000;
-	padding: 10px;
-	position: relative;
-	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-}
-
-.phone-screen {
-	background: linear-gradient(145deg, #0642a3, #003b99);
-	border-radius: 24px;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.phone-placeholder {
-	width: 100px;
-	height: 100px;
-	background: rgba(255, 255, 255, 0.15);
-	border-radius: 20px;
+/* Телефон — тільки на десктопах */
+.hero-phone {
+	display: block;
 }
 
 @media (max-width: 900px) {
@@ -125,27 +111,16 @@
 		text-align: center;
 	}
 
-	.hero-text h1 {
-		font-size: 32px;
-	}
-
 	.hero-buttons {
 		justify-content: center;
+		flex-wrap: wrap;
 	}
 
-	.phone-frame {
-		width: 200px;
-		height: 400px;
+	.hero-phone {
+		display: none;
 	}
-}
 
-.hero-background-logo {
-	position: absolute;
-	right: 200px;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 500px;
-	opacity: 0.05;
-	filter: blur(20px);
-	pointer-events: none;
+	.hero-text h1 {
+		font-size: 36px;
+	}
 }

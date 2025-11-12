@@ -6,20 +6,29 @@ import PhoneScanAnimation from "../../components/PhoneScanAnimation/PhoneScanAni
 const HeroSection: React.FC = () => {
 	return (
 		<section className="hero">
+			{/* Верхній лівий логотип */}
+			<div className="hero-brand">
+				<img
+					src={utilitysoft_labs_icon}
+					alt="UtilitySoft Labs logo"
+					className="brand-logo"
+				/>
+				<h2>UtilitySoft Labs</h2>
+			</div>
+
 			<div className="hero-container">
 				<div className="hero-text">
-					<div className="image">
-						<h1>
-							Smart Android Tools.
-							<br />
-							Crafted by <span>UtilitySoft Labs</span>
-						</h1>
-					</div>
+					<h1>
+						Smart Android Tools.
+						<br />
+						Crafted by <span>UtilitySoft Labs</span>
+					</h1>
 
 					<p>
 						We build lightweight, powerful, and privacy-focused apps that
 						simplify your digital life.
 					</p>
+
 					<div className="hero-buttons">
 						<a
 							href="#apps"
@@ -33,6 +42,7 @@ const HeroSection: React.FC = () => {
 						>
 							View Apps
 						</a>
+
 						<a
 							href="#contact"
 							className="btn secondary"
@@ -47,7 +57,11 @@ const HeroSection: React.FC = () => {
 						</a>
 					</div>
 				</div>
-				<PhoneScanAnimation />
+
+				{/* Телефон — лише на десктопах */}
+				<div className="hero-phone">
+					<PhoneScanAnimation />
+				</div>
 			</div>
 		</section>
 	);

@@ -49,9 +49,11 @@ const ContactSection: React.FC = () => {
 						required
 						className="contact-textarea"
 					/>
-					<button type="submit" className="contact-button">
-						Send Message
-					</button>
+					<div>
+						<button type="submit" className="contact-button">
+							Send Message
+						</button>
+					</div>
 
 					{status === "SUCCESS" && (
 						<p className="contact-success">

@@ -1,6 +1,5 @@
 import React from "react";
 import "./ValuesSection.css";
-
 const ValuesSection: React.FC = () => {
 	const values = [
 		{
@@ -37,6 +36,7 @@ const ValuesSection: React.FC = () => {
 					</div>
 				))}
 			</div>
+			<div className="hero-bg-logo"></div>
 		</section>
 	);
 };
