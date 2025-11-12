@@ -1,0 +1,59 @@
+.phone-frame {
+	position: relative;
+	width: 220px;
+	height: 420px;
+	border: 5px solid #000;
+	border-radius: 30px;
+	background: linear-gradient(180deg, #002fa7, #0038c0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+/* зелена лінія, яка рухається по всій рамці */
+.scan-line {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4px; /* товща лінія */
+	background: linear-gradient(
+		90deg,
+		transparent,
+		#00e6ff,
+		#00e676,
+		transparent
+	);
+	box-shadow: 0 0 30px #00e676;
+	border-radius: 4px;
+	animation: scanFull 4s linear infinite;
+	opacity: 0.9;
+}
+
+@keyframes scanFull {
+	0% {
+		top: 20%;
+	}
+	50% {
+		top: 75%;
+	}
+	100% {
+		top: 20%;
+	}
+}
+
+.screen {
+	width: 80%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.qr-image {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}

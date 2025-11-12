@@ -138,3 +138,14 @@
 		height: 400px;
 	}
 }
+
+.hero-background-logo {
+	position: absolute;
+	right: 200px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 500px;
+	opacity: 0.05;
+	filter: blur(20px);
+	pointer-events: none;
+}

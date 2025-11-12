@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
-import utilitysoft_labs_icon from "../../assets/utilitysoft_labs_icon.html.png";
+import utilitysoft_labs_icon from "/utilitysoft_labs_icon.png";
+import PhoneScanAnimation from "../../components/PhoneScanAnimation/PhoneScanAnimation";
 
 const HeroSection: React.FC = () => {
 	return (
@@ -8,7 +9,6 @@ const HeroSection: React.FC = () => {
 			<div className="hero-container">
 				<div className="hero-text">
 					<div className="image">
-						{/* <img src={utilitysoft_labs_icon} alt="icon" className="app-icon" /> */}
 						<h1>
 							Smart Android Tools.
 							<br />
@@ -47,14 +47,7 @@ const HeroSection: React.FC = () => {
 						</a>
 					</div>
 				</div>
-
-				{/* <div className="hero-mockup">
-					<div className="phone-frame">
-						<div className="phone-screen">
-							<div className="phone-placeholder" />
-						</div>
-					</div>
-				</div> */}
+				<PhoneScanAnimation />
 			</div>
 		</section>
 	);

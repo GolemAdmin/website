@@ -20,13 +20,6 @@ const Home: React.FC = () => {
 			<ContactSection />
 
 			<Footer />
-
-			{/* <Box textAlign="center" py={4} bgcolor="#f4f4f4">
-				<Typography variant="body1">
-					&copy; {new Date().getFullYear()} UtilitySoft Labs. All rights
-					reserved.
-				</Typography>
-			</Box> */}
 		</>
 	);
 };

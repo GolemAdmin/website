@@ -8,12 +8,6 @@ import messagesIcon from "../../assets/messages.png";
 
 const apps = [
 	{
-		title: "QR Scanner & Barcode Reader",
-		desc: "Scan and generate any QR or barcode instantly — fast, private, and ad-free.",
-		icon: qrIcon,
-		link: "#",
-	},
-	{
 		title: "Battery Life Monitor and Alarm",
 		desc: "Track your phone’s battery health, temperature, and get smart charging alerts.",
 		icon: batteryIcon,
@@ -36,6 +30,12 @@ const apps = [
 		desc: "Recover deleted messages, photos, and videos instantly — stay in control of what others unsend.",
 		icon: messagesIcon,
 		link: "https://play.google.com/store/apps/details?id=com.golemapps.messagerecovery",
+	},
+	{
+		title: "QR Scanner & Barcode Reader",
+		desc: "Scan and generate any QR or barcode instantly — fast, private, and ad-free.",
+		icon: qrIcon,
+		link: "#",
 	},
 ];
 

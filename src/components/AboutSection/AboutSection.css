@@ -11,9 +11,8 @@
 
 .about-container h2 {
 	font-size: 32px;
-	font-weight: 600;
-	margin-bottom: 20px;
-	color: #001f60;
+	font-weight: 500;
+	margin-bottom: 16px;
 }
 
 .about-description {
@@ -21,7 +20,6 @@
 	line-height: 1.6;
 	opacity: 0.9;
 	margin-bottom: 60px;
-	max-width: 720px;
 }
 
 .apps-grid {

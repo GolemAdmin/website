@@ -1,12 +1,12 @@
 .contact-section {
-	background: #f9fafb;
-	padding: 0 20px 100px;
+	background: #fff;
+	padding: 80px 20px;
 	color: #0d0d0d;
 	scroll-margin-top: 100px;
 }
 
 .contact-container {
-	max-width: 700px;
+	max-width: 1100px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -23,7 +23,7 @@
 
 .contact-header p {
 	font-size: 17px;
-	line-height: 1.7;
+	line-height: 1.6;
 	opacity: 0.9;
 }
 
