@@ -8,7 +8,6 @@
 	font-family: "Inter", "Roboto", sans-serif;
 }
 
-/* Основна контейнерна обгортка */
 .footer-container {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -19,13 +18,11 @@
 	gap: 60px;
 }
 
-/* Окремі секції */
 .footer-section {
 	flex: 1;
 	min-width: 220px;
 }
 
-/* --- Бренд --- */
 .footer-brand h3 {
 	color: #00e676;
 	font-size: 22px;
@@ -38,7 +35,6 @@
 	line-height: 1.6;
 }
 
-/* --- Навігація --- */
 .footer-links h4,
 .footer-social h4 {
 	color: #00e676;
@@ -79,7 +75,6 @@
 	color: #00e676;
 }
 
-/* --- Соціальні іконки --- */
 .social-icons {
 	display: flex;
 	gap: 16px;
@@ -97,7 +92,6 @@
 	transform: translateY(-3px);
 }
 
-/* --- Нижня лінія --- */
 .footer-bottom {
 	border-top: 1px solid rgba(255, 255, 255, 0.15);
 	/* margin-top: 60px; */
@@ -110,7 +104,6 @@
 	opacity: 0.75;
 }
 
-/* --- Адаптивність --- */
 @media (max-width: 900px) {
 	.footer-container {
 		flex-direction: column;

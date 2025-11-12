@@ -6,7 +6,6 @@ import PhoneScanAnimation from "../../components/PhoneScanAnimation/PhoneScanAni
 const HeroSection: React.FC = () => {
 	return (
 		<section className="hero">
-			{/* Верхній лівий логотип */}
 			<div className="hero-brand">
 				<img
 					src={utilitysoft_labs_icon}
@@ -58,7 +57,6 @@ const HeroSection: React.FC = () => {
 					</div>
 				</div>
 
-				{/* Телефон — лише на десктопах */}
 				<div className="hero-phone">
 					<PhoneScanAnimation />
 				</div>

@@ -28,6 +28,14 @@
 		{
 			"source": "/qr-scanner/terms",
 			"destination": "/"
+		},
+		{
+			"source": "/barcode/privacy-policy",
+			"destination": "/"
+		},
+		{
+			"source": "/barcode/terms",
+			"destination": "/"
 		}
 	]
 }
